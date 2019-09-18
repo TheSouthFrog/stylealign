@@ -11,6 +11,8 @@ and [Jiaya Jia](http://jiaya.me/)
 This repository contains the implementation of our ICCV 2019 paper, '[Aggregation via Separation: Boosting Facial Landmark Detector with Semi-Supervised Style Translation](https://arxiv.org/pdf/1908.06440.pdf)'.
 The proposed method investigates how to boost the performance of facial landmark detector in limited training resources, using synthetic data in a style-translation manner.
 
+![stlyeaug](fig/aug.png)
+
 **Results(NME/%) on WFLW dataset**
 
 | Method | Fullset | Pose | Expression | Illumination | Make-up | Occlusion | Blur |
