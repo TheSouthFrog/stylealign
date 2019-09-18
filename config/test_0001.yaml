@@ -1,0 +1,17 @@
+exp_name: test_0001
+data_dir: /home/sjqian/300W/Image
+img_list: /home/sjqian/300W/train.txt
+
+batch_size: 4
+init_batches: 4
+spatial_size: 256
+bottleneck_factor: 2
+
+lr: 0
+lr_decay_begin: 50000
+lr_decay_end: 50100
+log_freq: 50000
+ckpt_freq: 50000
+test_freq: 1
+drop_prob: 0.0
+sigma: 1
