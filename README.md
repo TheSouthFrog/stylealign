@@ -65,6 +65,7 @@ pip install -r requirements.txt
 Note this implementation, we use [variational u-net](https://github.com/CompVis/vunet/tree/tf12legacy) as network structure as it produces sharper results.
 
 As it uses a deprecated API of data dependent initialization which requires legacy version of CUDA 8.0 and CuDNN 5.1 without backward compatibility.
+
 **Prepare Dataset**
  - You may the original cropped WFLW dataset here [Google Drive](https://drive.google.com/file/d/1nZmjlwVSJxI8_W27LpjPJa6K_M_gmTXS/view?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/1fzizdQ3FRBRwfJjGRvw8gA).
  - Unzip downloaded files. Remember to change the ***data_dir*** and ***image_list*** to your image directory and annotation file, respectively.
